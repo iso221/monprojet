@@ -1,0 +1,22 @@
+img{
+	width: 25%;
+}
+#lisere{
+	font-size: 14px;
+	color: blue;
+}
+.cv{
+	
+	float: right;
+	margin-right: 20%;
+}
+@media screen and (max-width: 1024px){
+	.cv{
+		display: flex;
+	flex-direction: row;
+	}
+	#lisere{
+		display: none;
+	}
+
+}
